@@ -67,14 +67,11 @@ public class Simulation
                 3376.2 * 1000
         );
 
-
-
         bodies.add(sun);
         bodies.add(mercury);
         bodies.add(venus);
         bodies.add(earth);
         bodies.add(mars);
-        //bodies.add(moon);
     }
 
     private Point.Double getAttraction(Body b1, Body b2)
